@@ -1,0 +1,4 @@
+<% if can? :manage,Task %>
+<%= link_to 'Edit Task",edit_task_path(task) %>
+<%#= link_to 'Delete Task","/tasks/#{}"%>
+<% end %>
